@@ -1,0 +1,124 @@
+.container {
+    height: 800px;
+    position: relative;
+    background-color: #F1F1F1;
+    overflow: hidden;
+}
+
+
+.login-form-container {
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    box-shadow: #ccc 2px 2px 2px 1px;
+    background-color: white;
+    text-align: center;
+}
+
+.login-form-container-invalid {
+    height: 35%;
+}
+
+.product-management-title {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.top-header {
+    background-color: #23282D;
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.invalid-username-or-password {
+    font-style: italic;
+}
+
+.button-logout {
+    text-decoration: none;
+    color:white;
+}
+
+.content-container {
+    display: flex;
+    align-items: left;
+    height: 628px;
+    padding: 0;
+    overflow: auto;
+}
+
+.menu {
+    background-color: #353942;
+    padding: 0;
+}
+
+.menu-content  li {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    background-color: #060A0F;
+}
+.menu-content  li:hover  {
+    background-color: #c6c8ca;
+    cursor: pointer;
+}
+
+.menu-content li:hover  a {
+    color: #060A0F;
+}
+
+.menu-content  li a{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+
+}
+
+.column-right {
+    padding: 0;
+}
+
+.alert-status h5{
+    display: block;
+    padding-left: 25px;
+}
+
+.create-new-product-link, .search-page-link {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 25px;
+}
+
+
+.button-search {
+    margin-left: 10px;
+}
+
+.search-form {
+    padding-left: 25px;
+}
+
+.table-product {
+    padding-left: 25px;
+}
+
+.no-record {
+    padding: 25px;
+}
+
+.title {
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.create-form {
+    padding-left: 25px;
+}
